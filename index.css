@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: #141413;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-esq{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-esq h1{
+    font-size: 3vw;
+    color: #979777;
+}
+
+.div-dir{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 25vw;
+    border-radius: 30%;
+}
+
+.container{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 15px;
+    background: #979777;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #c48f8f56;
+}
+
+.container h1{
+    color: #141413;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+}
+
+.textfield input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield label{
+    color: #000000;
+}
+
+.textfield input::placeholder{
+    color: #141413;
+}
+
+input[type="submit"], [type="reset"]{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px 0px;
+    margin: 5px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 10px 40px #00000056;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #141413;
+    color: #979777;
+    letter-spacing: 3px;
+}
+
+input[type="submit"]:hover, [type="reset"]:hover{
+    opacity: 0.8
+}
+
+@media only screen and (max-width: 950px){
+    .container{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-login{
+        flex-direction: column;
+    }
+
+    .div-esq h1{
+        display: none;
+    }
+
+    .div-esq{
+        width: 100%;
+        height: auto;
+    }
+
+    .div-dir{
+        width: 100%;
+        height: auto;
+    }
+
+    .div-esq img{
+        padding: 30px;
+        width: 30vh;
+    }
+
+    .container{
+        width: 80%;
+    }
+}
