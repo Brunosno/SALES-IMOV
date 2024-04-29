@@ -35,7 +35,7 @@ nav{
     border-radius: 75px;
 }
 
-img{
+.banner img{
     width: 15vh;
     border-radius: 50%;
 }
@@ -43,6 +43,26 @@ img{
 .banner{
     text-align: center;
     justify-content: center;
+}
+
+.container img{
+    padding: 30px;
+    width: 45vh;
+}
+
+.container aside{
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background: #979777;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #141413;
 }
 
 figcaption{
@@ -59,7 +79,7 @@ main h1{
 
 .casas{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     justify-content: center;
     align-items: center;
 }
@@ -68,6 +88,11 @@ main h1{
     border-radius: 10%;
     width: 15vw;
     outline: none;
+}
+
+.casas:hover{
+    scale: 0.6;
+    transition-duration: 0.3s;
 }
 
 figcaption{
