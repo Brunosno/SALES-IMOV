@@ -104,9 +104,10 @@ input[type="submit"]:hover, [type="reset"]:hover{
     opacity: 0.8
 }
 
-@media only screen and (max-width: 950px){
+@media only screen and (max-height: 300px){
     .container{
-        width: 85%;
+        width: 24vw;
+        height: 30vh;
     }
 }
 
