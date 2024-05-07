@@ -104,10 +104,20 @@ input[type="submit"]:hover, [type="reset"]:hover{
     opacity: 0.8
 }
 
-@media only screen and (max-width: 600px){
-    .container{
-        width: 24vw;
-        height: 50vh;
+@media only screen and (max-height: 400px){
+    .div-dir{
+        width: 34vw;
+        height: 20vh;
+    }
+
+    .textfield{
+        width: 19vw;
+        height: 17vh;
+    }
+
+    .cad{
+        width: 19vw;
+        height: 17vh;
     }
 }
 
